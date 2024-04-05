@@ -1,5 +1,3 @@
-# Dr. Anirban Mukherjee
-
 Marketing, Samuel Curtis Johnson Graduate School of Management, Sage Hall, Cornell University, Ithaca, NY 14850
 
 Email: am253@cornell.edu
