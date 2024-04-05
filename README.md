@@ -4,7 +4,7 @@ Sage Hall, Cornell University, Ithaca, NY 14850
 
 Email: am253@cornell.edu
 
-Google Scholar: [https://scholar.google.com/citations?user=V7wCZ5EAAAAJ&hl=en] 
+Google Scholar: https://scholar.google.com/citations?user=V7wCZ5EAAAAJ&hl=en
 
 Homepage: https://www.anirbanmukherjee.com 
 
