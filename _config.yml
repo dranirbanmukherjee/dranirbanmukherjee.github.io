@@ -5,5 +5,7 @@ author:
   email: am253@cornell.edu
 description: "Homepage of Anirban Mukherjee."
 
+avatar: "/anirban_mukherjee.jpg"
+
 # Build settings
 remote_theme: jekyll/minima
