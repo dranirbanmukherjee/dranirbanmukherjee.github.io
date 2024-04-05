@@ -1,4 +1,4 @@
-![Photograph of Anirban Mukherjee](anirban_mukherjee.jpg?raw=true "Title")
+![Photograph of Anirban Mukherjee](anirban_mukherjee.jpg?raw=true "Anirban Mukherjee")
 
 Marketing, Samuel Curtis Johnson Graduate School of Management, 
 
