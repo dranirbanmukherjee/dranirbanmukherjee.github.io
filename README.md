@@ -1,3 +1,5 @@
+![Photograph of Anirban Mukherjee](anirban_mukherjee.jpg?raw=true "Title")
+
 Marketing, Samuel Curtis Johnson Graduate School of Management, 
 
 Sage Hall, Cornell University, Ithaca, NY 14850
