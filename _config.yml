@@ -1,0 +1,9 @@
+# Site settings
+title: Dr. Anirban Mukherjee 
+author:
+  name: Anirban Mukherjee
+  email: am253@cornell.edu
+description: "Homepage of Anirban Mukherjee."
+
+# Build settings
+remote_theme: jekyll/minima
