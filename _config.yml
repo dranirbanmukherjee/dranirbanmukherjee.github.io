@@ -8,4 +8,4 @@ description: "Homepage of Anirban Mukherjee."
 avatar: "/anirban_mukherjee.jpg"
 
 # Build settings
-remote_theme: jekyll/minima
+remote_theme: jekyll-theme-minimal
