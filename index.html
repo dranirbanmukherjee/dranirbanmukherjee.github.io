@@ -38,25 +38,21 @@
 
     :root {
       --bg: #fafafa;
-      --card-bg: #ffffff;
       --text: #1a1a1a;
       --text-secondary: #555;
       --border: #e0e0e0;
       --link-bg: #f5f5f5;
       --link-hover: #eaeaea;
-      --shadow: 0 1px 3px rgba(0,0,0,0.08);
     }
 
     @media (prefers-color-scheme: dark) {
       :root {
         --bg: #111;
-        --card-bg: #1a1a1a;
         --text: #e8e8e8;
         --text-secondary: #aaa;
         --border: #333;
-        --link-bg: #222;
-        --link-hover: #2a2a2a;
-        --shadow: 0 1px 3px rgba(0,0,0,0.3);
+        --link-bg: #1a1a1a;
+        --link-hover: #252525;
       }
     }
 
@@ -64,23 +60,20 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       background: var(--bg);
       color: var(--text);
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 2rem 1rem;
       line-height: 1.6;
+      min-height: 100vh;
     }
 
-    .card {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      box-shadow: var(--shadow);
-      max-width: 420px;
-      width: 100%;
-      padding: 2.5rem 2rem;
+    .page {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+    }
+
+    /* Mobile: centered card-like layout */
+    .header {
       text-align: center;
+      margin-bottom: 2.5rem;
     }
 
     .photo {
@@ -93,7 +86,7 @@
     }
 
     h1 {
-      font-size: 1.5rem;
+      font-size: 1.6rem;
       font-weight: 600;
       margin-bottom: 0.25rem;
     }
@@ -107,14 +100,29 @@
     .bio {
       font-size: 0.92rem;
       color: var(--text-secondary);
-      margin-bottom: 1.75rem;
       line-height: 1.55;
+    }
+
+    .email {
+      font-size: 0.92rem;
+      margin-top: 0.75rem;
+    }
+
+    .email a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .email a:hover {
+      color: var(--text);
     }
 
     .links {
       display: flex;
       flex-direction: column;
       gap: 0.6rem;
+      margin-bottom: 1.5rem;
     }
 
     .links a {
@@ -127,6 +135,7 @@
       text-decoration: none;
       font-size: 0.9rem;
       font-weight: 500;
+      text-align: center;
       transition: background 0.15s;
     }
 
@@ -137,34 +146,102 @@
     .divider {
       border: none;
       border-top: 1px solid var(--border);
-      margin: 1rem 0;
+      margin: 0 0 1.5rem;
+    }
+
+    /* Desktop: two-column layout */
+    @media (min-width: 768px) {
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .page {
+        display: grid;
+        grid-template-columns: 180px 1fr;
+        gap: 0 2.5rem;
+        align-items: start;
+        padding: 4rem 2rem;
+      }
+
+      .header {
+        text-align: left;
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template-columns: 180px 1fr;
+        gap: 0 2.5rem;
+        align-items: center;
+        margin-bottom: 2rem;
+      }
+
+      .photo {
+        grid-row: 1 / 4;
+        width: 160px;
+        height: 160px;
+        margin-bottom: 0;
+      }
+
+      h1 {
+        font-size: 1.75rem;
+      }
+
+      .content {
+        grid-column: 1 / -1;
+      }
+
+      .links {
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+      .links a {
+        flex: 0 0 auto;
+        text-align: center;
+      }
+
+      .nav-links a {
+        flex: 1 1 0;
+      }
+
+      .external-links {
+        justify-content: center;
+      }
+
+      .external-links a {
+        flex: 0 1 auto;
+        padding: 0.7rem 1.25rem;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="card">
-    <img class="photo" src="anirban_mukherjee.jpg" alt="Dr. Anirban Mukherjee">
-    <h1>Dr. Anirban Mukherjee</h1>
-    <p class="affiliation">Principal, Avyayam Holdings<br>AI and Quantitative Marketing Strategies</p>
-    <p class="bio">
-      Ph.D., Cornell University. Previously at Columbia University,
-      Cornell University, INSEAD, and Singapore Management University.
-    </p>
-    <div class="links nav-links">
-      <a href="publications.html">Publications</a>
-      <a href="working-papers.html">Working Papers</a>
+  <div class="page">
+    <div class="header">
+      <img class="photo" src="anirban_mukherjee.jpg" alt="Dr. Anirban Mukherjee">
+      <div>
+        <h1>Dr. Anirban Mukherjee</h1>
+        <p class="affiliation">Principal, Avyayam Holdings<br>AI and Quantitative Marketing Strategies</p>
+        <p class="bio">
+          Ph.D., Cornell University. Previously at Columbia University,
+          Cornell University, INSEAD, and Singapore Management University.
+        </p>
+        <p class="email"><a href="mailto:anirban@avyayamholdings.com">anirban@avyayamholdings.com</a></p>
+      </div>
     </div>
-    <hr class="divider">
-    <div class="links">
-      <a href="https://github.com/anirban-mu">GitHub</a>
-      <a href="https://scholar.google.com/citations?user=V7wCZ5EAAAAJ&hl=en">Google Scholar</a>
-      <a href="https://www.linkedin.com/in/anirban-mukherjee-avyayam-holdings/">LinkedIn</a>
-      <a href="https://orcid.org/0000-0001-6381-814X">ORCID</a>
-      <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=431500">SSRN</a>
-    </div>
-    <hr class="divider">
-    <div class="links">
-      <a href="mailto:anirban@avyayamholdings.com">anirban@avyayamholdings.com</a>
+    <div class="content">
+      <div class="links nav-links">
+        <a href="publications.html">Publications</a>
+        <a href="working-papers.html">Working Papers</a>
+      </div>
+      <hr class="divider">
+      <div class="links external-links">
+        <a href="https://github.com/anirban-mu">GitHub</a>
+        <a href="https://scholar.google.com/citations?user=V7wCZ5EAAAAJ&hl=en">Google Scholar</a>
+        <a href="https://www.linkedin.com/in/anirban-mukherjee-avyayam-holdings/">LinkedIn</a>
+        <a href="https://orcid.org/0000-0001-6381-814X">ORCID</a>
+        <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=431500">SSRN</a>
+      </div>
     </div>
   </div>
 </body>
