@@ -2,14 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.anirbanmukherjee.com/</loc>
-    <lastmod>2026-02-20</lastmod>
+    <lastmod>2026-03-10</lastmod>
   </url>
   <url>
     <loc>https://www.anirbanmukherjee.com/publications.html</loc>
-    <lastmod>2026-02-20</lastmod>
+    <lastmod>2026-03-10</lastmod>
   </url>
   <url>
     <loc>https://www.anirbanmukherjee.com/working-papers.html</loc>
-    <lastmod>2026-02-20</lastmod>
+    <lastmod>2026-03-10</lastmod>
   </url>
+  <url>
+    <loc>https://www.anirbanmukherjee.com/llms.txt</loc>
+    <lastmod>2026-03-10</lastmod>
+  </url>
+  <!-- Published Papers -->
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Chang-RCT-2026-Copyright_Laundering.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Chang-SST-2026-Operational_Agency.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Chang-WJL-2026-Fluid_Agency.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Chang_Wibowo-JIT-2025-Personalization_Paradox.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Fisar_EtAl-MNS-2024-Reproducibility.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Chang_Mukherjee_Chattopadhyay-JMR-2023-Voice_Numerosity.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Moon_Tuli_Mukherjee-JMK-2023-Advertising_Disclosure.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Chang-CMR-2023-Creative_Frontier.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Gielens_Dekimpe_Mukherjee_Tuli-IJR-2023-Private_Label.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Chang_Mukherjee-EDS-2022-AI_Experience_Economy.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Chang_Mukherjee-EDS-2022-ML_Consumer_Data.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Chang_Chattopadhyay-HSE-2019-Crowdfunding.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Kadiyali-MNS-2018-DVD_Dynamics.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Xiao_Wang_Contractor-AMP-2018-Threadless.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Tuli_Mukherjee_Dekimpe-JRT-2012-Retailer_Advertising.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Kadiyali-JMR-2011-Multichannel_Video.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee-COR-2003-Battery_Management.pdf</loc></url>
+  <!-- Working Papers -->
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Chang-ARX-2023-Hilbert_Space_Embedding.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Chang-ARX-2025-Agentic_AI.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Chang-ARX-2024-AI_Expert_Creativity.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Chang-ARX-2026-Distributional_Distinctiveness.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Chang_Gupta-SSR-2025-Bridging_Gap.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Chang-ARX-2024-CAVIAR.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Chang-ARX-2025-Parrots_Song_MMD.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Chang-SSR-2025-Compactibility.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Xiao-SSR-2024-Dalal_Street.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Chang-SSR-2021-Describing_Rose.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Yang_Xiao_Chattopadhyay-SSR-2017-Crowd_Innovation.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Chang-SSR-2025-Emotional_Appeals.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Chang-SSR-2025-Engineering_Rivalry.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Kadiyali-INK-Forecasting_Motion_Picture.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Chang-SSR-2025-Custom_To_Code.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Chang-ARX-2024-Heuristic_Reasoning.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Chang-SSR-2024-IP_Piracy.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Yin_Boughanmi_Mukherjee-SSR-2024-Meta_Learning.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Xiao_Chang_Wang_Contractor-SSR-2017-Plebeian_Bias.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee-ARX-2024-Psittacines_Novelty.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee-ARX-2024-Safeguarding_Marketing.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Chang-ARX-2024-Silico_Centric_ToM.pdf</loc></url>
+  <url><loc>https://www.anirbanmukherjee.com/papers/Mukherjee_Bonfrer-SSR-2013-Macro_Expenditure.pdf</loc></url>
 </urlset>
